@@ -289,6 +289,7 @@ int main(void) {
 	insert(root, p[0].y, 0);
 	insert(root, p[1].y, 1);
 
+	printf("start\n");
 	printf("0¹ø %d %d\n", p[0].x, p[0].y);
 	printf("1¹ø %d %d\n", p[1].x, p[1].y);
 	for (int i = 2; i < n; i++) {
